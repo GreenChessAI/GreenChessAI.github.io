@@ -1,4 +1,4 @@
-body { background-color:#FFC425;
+body { background-color:#d9d9d9;
       background-image: url(background.jpg);
       color: #000000;
       font-family: Arial, helvetica;;
@@ -8,10 +8,10 @@ body { background-color:#FFC425;
            max-width: 1024px;
            margin-right: auto;
            margin-left: auto;
-           background-color:#55aa55;
-           box-shadow: 3px 3px 3px #666666;
+           background-color:#bed1ff;
+           box-shadow: 0px 0px 5px 3px gray;
 }
-header { background-color: #231F20;
+header { background-color: #f8f8f8;
          color: #ffffff;
        font-family: Arial, helvetica;;
 }
@@ -23,17 +23,18 @@ h1 { line-height: 200%;
     height: 72px;
     margin-bottom: 0;
 background-color:##231F20;
-color:#ffffff;
+color:#000;
+padding-top: 20px;
 }
 nav { font-weight: bold;
      padding: 5px;
      float:left;
      width: 160px;
-     padding: 20px 5px 0 20px;
+     padding: 42px 5px 0 13px;
 }
 nav a { text-decoration: none; }
-nav a:link { color: #000033; }
-nav a:visited { color: #344873 }
+nav a:link { color: #3b3295; }
+nav a:visited { color: #3b3295; }
 nav a:hover { color: #FFFFFF; }
 nav ul { list-style-type: none;
        margin: 0;
@@ -41,6 +42,9 @@ nav ul { list-style-type: none;
 }
 h2 { color: #000000;
     font-family: Arial, helvetica;
+padding: 1rem;
+padding-bottom: 0rem;
+margin-bottom: 0rem;
 }
 dt { color: #000000;
     font-weight: bold;
@@ -53,13 +57,17 @@ footer { font-size: 0.70em;
        font-style: italic;
        padding: 10px;
        margin-left: 170px;
-       background-color: #FFFFFF;
+       background-color: #f8f8f8;
 }
 h3 { color: #000000;
 }
+hr {margin:0px}
+p {
+    margin-top: 0; padding: 1rem; line-height: 1.4;
+}
 main { padding-left: 20px;
         padding-right: 20px;
-        background-color: #FFFFFF;
+        background-color: #f8f8f8;
         margin-left: 170px;
         padding-top: 1px;
         padding-bottom: 1px;
@@ -67,6 +75,7 @@ main { padding-left: 20px;
 main img { float: left;
            padding-right: 20px;
            padding-bottom: 20px;
+padding-left: 40px;
 }
 main ul { list-style-position: inside; }
 .clear { clear: both; }
